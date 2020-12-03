@@ -1,0 +1,10 @@
+# Ejercicio 4
+# Crear una función que calcule la media de dos numeros pasados como parametros
+media <- function(numero1,numero2) {
+  resultado <- (numero1 + numero2) / 2
+  return(resultado)
+}
+
+res <- media(14,8)
+print(res)
+

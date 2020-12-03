@@ -1,0 +1,11 @@
+# Ejercicio 2
+# Verifica si el valor de una variable es un numero o un caracter
+variable <- list(12,c(12,3,45))
+
+if (is.numeric(variable)) {
+  print('Es un numero')
+} else if (is.character(variable)) {
+  print('Es un caracter')
+} else {
+  print('No es un numero ni un caracter')
+}

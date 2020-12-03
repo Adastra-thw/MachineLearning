@@ -1,0 +1,15 @@
+# Ejercicio 5
+# Crear una función que sume todos los elementos de una matriz
+
+suma.matriz <- function(matriz) {
+  suma <- 0
+  for (elemento in matriz) {
+    suma <- suma + elemento
+  }
+  return(suma)
+}
+
+matriz <- matrix(1:10,nrow=5)
+print(matriz)
+resultado <- suma.matriz(matriz)
+print(resultado)

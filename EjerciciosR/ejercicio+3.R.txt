@@ -1,0 +1,12 @@
+# Ejercicio 3
+# Dado un vector con 3 valores numericos, calcular cual es el valor maximo, utilizando if, else if, else
+vector <- c(18,10,30)
+maximo <- 0
+if ( (vector[1] > vector[2]) & (vector[1] > vector[3]) ) {
+  maximo <- vector[1]
+} else if (vector[2] > vector[3]) {
+  maximo <- vector[2]
+} else {
+  maximo <- vector[3]
+}
+print(maximo)
